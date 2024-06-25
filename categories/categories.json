@@ -1,0 +1,22 @@
+[
+    {
+        "label": "All",
+        "href": "#all"
+    },
+    {
+        "label": "Briyani",
+        "href": "biriyani.html"
+    },
+    {
+        "label": "Combos",
+        "href": "combo.html"
+    },
+    {
+        "label": "Fried Rice",
+        "href": "friedrice.html"
+    },
+    {
+        "label": "Starters",
+        "href": "#PERIPERIBUCKETCOMBOS"
+    }
+]
