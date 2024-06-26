@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', function() {
     fetch('categories.json')
         .then(response => response.json())
         .then(categories => {
@@ -46,6 +46,10 @@ async function fetchMenuData(id, filterType) {
 
 function generateMenuItems(menuData) {
     const menuContainer = document.getElementById('menu-items');
+    const incrementBtn = itemElement.querySelector('.increment-btn');
+    const decrementBtn = itemElement.querySelector('.decrement-btn');
+    const countValue = itemElement.querySelector('.count-value');
+
     menuContainer.innerHTML = ''; // Clear previous content
 
     menuData.forEach((item) => {
@@ -75,27 +79,20 @@ function generateMenuItems(menuData) {
         menuContainer.insertAdjacentHTML('beforeend', cardHTML);
     });
 
-    // Add event listeners for increment and decrement buttons
-    menuContainer.querySelectorAll('.increment-btn').forEach(button => {
-        button.addEventListener('click', () => {
-            const cardBody = button.closest('.card-body');
-            const countSpan = cardBody.querySelector('.count-value');
-            let count = parseInt(countSpan.textContent.trim());
-            countSpan.textContent = ` ${++count} `;
-            updateOrderedItems(parseInt(cardBody.dataset.id), parseInt(cardBody.dataset.item), cardBody.dataset.name, parseFloat(cardBody.dataset.price), count);
-        });
+    incrementBtn.addEventListener('click', () => {
+        let count = parseInt(countValue.textContent);
+        count++;
+        countValue.textContent = count;
+        updateOrderedItems(item.id, item.item, item.name, item.price, count);
     });
 
-    menuContainer.querySelectorAll('.decrement-btn').forEach(button => {
-        button.addEventListener('click', () => {
-            const cardBody = button.closest('.card-body');
-            const countSpan = cardBody.querySelector('.count-value');
-            let count = parseInt(countSpan.textContent.trim());
-            if (count > 1) {
-                countSpan.textContent = ` ${--count} `;
-                updateOrderedItems(parseInt(cardBody.dataset.id), parseInt(cardBody.dataset.item), cardBody.dataset.name, parseFloat(cardBody.dataset.price), count);
-            }
-        });
+    decrementBtn.addEventListener('click', () => {
+        let count = parseInt(countValue.textContent);
+        if (count > 0) {
+            count--;
+            countValue.textContent = count;
+            updateOrderedItems(item.id, item.item, item.name, item.price, count);
+        }
     });
 }
 
@@ -109,6 +106,7 @@ function updateOrderedItems(id, item, name, price, count) {
     }
     displayOrderedItems();
 }
+
 function displayOrderedItems() {
     console.log("Displaying ordered items:");
     let totalPrice = 0;
@@ -217,7 +215,7 @@ document.getElementById('categoryDropdown3').addEventListener('click', showOrder
 document.querySelector('.close').addEventListener('click', closeOrderPopup);
 
 // Close the modal when clicking outside of it
-window.onclick = function (event) {
+window.onclick = function(event) {
     const modal = document.getElementById('orderPopup');
     if (event.target === modal) {
         modal.style.display = 'none';
