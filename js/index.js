@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     fetch('categories.json')
         .then(response => response.json())
         .then(categories => {
@@ -22,7 +22,7 @@ let orderedItems = [];
 
 async function fetchMenuData(id, filterType) {
     try {
-        const response = await fetch('../categories/menu.json');
+        const response = await fetch('menu.json');
         const menuData = await response.json();
 
         // Filter menu data based on id and filterType
@@ -44,9 +44,8 @@ async function fetchMenuData(id, filterType) {
     }
 }
 
-function generateMenuItems(menuData) {
+function generateMenuItems(menuData) {  
     const menuContainer = document.getElementById('menu-items');
-
     menuContainer.innerHTML = ''; // Clear previous content
 
     menuData.forEach((item) => {
@@ -65,9 +64,9 @@ function generateMenuItems(menuData) {
                                 ₹ ${item.price}
                             </div>
                             <div class="col-6 d-flex justify-content-center align-items-center">
-                                <button class="btn btn-light btn-sm decrement-btn" data-id="${item.id}" data-name="${item.name}" data-price="${item.price}">-</button>
+                                <button class="btn btn-light btn-sm decrement-btn">-</button>
                                 <span class="count-value"> 0 </span>
-                                <button class="btn btn-light btn-sm increment-btn" data-id="${item.id}" data-name="${item.name}" data-price="${item.price}">+</button>
+                                <button class="btn btn-light btn-sm increment-btn">+</button>
                             </div>
                         </div>
                     </div>
@@ -77,68 +76,55 @@ function generateMenuItems(menuData) {
     });
 
     // Add event listeners for increment and decrement buttons
-    const incrementButtons = document.querySelectorAll('.increment-btn');
-    const decrementButtons = document.querySelectorAll('.decrement-btn');
-
-    incrementButtons.forEach(button => {
+    menuContainer.querySelectorAll('.increment-btn').forEach(button => {
         button.addEventListener('click', () => {
-            const id = parseInt(button.dataset.id);
-            const name = button.dataset.name;
-            const price = parseFloat(button.dataset.price);
-            let count = parseInt(button.previousElementSibling.textContent.trim());
-
-            count++;
-            button.previousElementSibling.textContent = count;
-            updateOrderedItems(id, name, price, count);
+            const cardBody = button.closest('.card-body');
+            const countSpan = cardBody.querySelector('.count-value');
+            let count = parseInt(countSpan.textContent.trim());
+            countSpan.textContent = ` ${++count} `;
+            updateOrderedItems(parseInt(cardBody.dataset.id), parseInt(cardBody.dataset.item), cardBody.dataset.name, parseFloat(cardBody.dataset.price), count);
         });
     });
 
-    decrementButtons.forEach(button => {
+    menuContainer.querySelectorAll('.decrement-btn').forEach(button => {
         button.addEventListener('click', () => {
-            const id = parseInt(button.dataset.id);
-            const name = button.dataset.name;
-            const price = parseFloat(button.dataset.price);
-            let count = parseInt(button.nextElementSibling.textContent.trim());
-
+            const cardBody = button.closest('.card-body');
+            const countSpan = cardBody.querySelector('.count-value');
+            let count = parseInt(countSpan.textContent.trim());
             if (count > 0) {
-                count--;
-                button.nextElementSibling.textContent = count;
-                updateOrderedItems(id, name, price, count);
+                countSpan.textContent = ` ${--count} `;
+                updateOrderedItems(parseInt(cardBody.dataset.id), parseInt(cardBody.dataset.item), cardBody.dataset.name, parseFloat(cardBody.dataset.price), count);
             }
         });
     });
 }
 
-function updateOrderedItems(id, name, price, count) {
-    console.log(`Updating item ${id}-${name} with count ${count}`);
-    let itemIndex = orderedItems.findIndex(item => item.id === id && item.name === name);
+function updateOrderedItems(id, item, name, price, count) {
+    console.log(`Updating item ${id}-${item} with count ${count}`);
+    let itemIndex = orderedItems.findIndex(item => item.id === id && item.item === item);
     if (itemIndex > -1) {
         orderedItems[itemIndex].count = count;
-        if (count === 0) {
-            orderedItems.splice(itemIndex, 1); // Remove item if count is zero
-        }
     } else {
-        orderedItems.push({ id, name, price, count });
+        orderedItems.push({ id, item, name, price, count });
     }
     displayOrderedItems();
 }
-
 function displayOrderedItems() {
     console.log("Displaying ordered items:");
     let totalPrice = 0;
     let html = "";
 
-    if (orderedItems.length === 0) {
+    if (orders.length === 0) {
         html = "<h4 class='mt-3'>No dishes selected</h4>";
     } else {
-        orderedItems.forEach(item => {
+        orders.forEach(item => {
             html += `
                 <div class="d-flex justify-content-between align-items-center">
                     <h4 class="mt-3">${item.name} <span class="text-muted"> x ${item.count}</span></h4>
                     <div class="d-flex align-items-center">
-                        <button class="btn btn-light btn-sm decrement-btn" data-id="${item.id}" data-name="${item.name}" data-price="${item.price}">-</button>
+                        <button class="btn btn-light btn-sm decrement-btn">-</button>
                         <span class="count-value mx-2">${item.count}</span>
-                        <button class="btn btn-light btn-sm increment-btn" data-id="${item.id}" data-name="${item.name}" data-price="${item.price}">+</button>
+                        <button class="btn btn-light btn-sm increment-btn">+</button>
                     </div>
                 </div>
             `;
@@ -154,37 +140,34 @@ function displayOrderedItems() {
     }
 
     // Add event listeners for increment and decrement buttons
-    const incrementButtons = document.querySelectorAll('#orderItems .increment-btn');
-    const decrementButtons = document.querySelectorAll('#orderItems .decrement-btn');
+    const incrementButtons = document.querySelectorAll('.increment-btn');
+    const decrementButtons = document.querySelectorAll('.decrement-btn');
 
     incrementButtons.forEach(button => {
         button.addEventListener('click', () => {
-            const id = parseInt(button.dataset.id);
-            const name = button.dataset.name;
-            const price = parseFloat(button.dataset.price);
-            let count = parseInt(button.previousElementSibling.textContent.trim());
-
-            count++;
-            button.previousElementSibling.textContent = count;
-            updateOrderedItems(id, name, price, count);
+            const itemName = button.parentElement.previousElementSibling.textContent.trim();
+            const selectedItem = orders.find(item => item.name === itemName);
+            if (selectedItem) {
+                selectedItem.count++;
+                displayOrderedItems();
+            }
         });
     });
 
     decrementButtons.forEach(button => {
         button.addEventListener('click', () => {
-            const id = parseInt(button.dataset.id);
-            const name = button.dataset.name;
-            const price = parseFloat(button.dataset.price);
-            let count = parseInt(button.nextElementSibling.textContent.trim());
-
-            if (count > 0) {
-                count--;
-                button.nextElementSibling.textContent = count;
-                updateOrderedItems(id, name, price, count);
+            const itemName = button.parentElement.previousElementSibling.textContent.trim();
+            const selectedItem = orders.find(item => item.name === itemName);
+            if (selectedItem && selectedItem.count > 0) {
+                selectedItem.count--;
+                displayOrderedItems();
             }
         });
     });
 }
+
+
+
 
 document.addEventListener('DOMContentLoaded', () => {
     let id;
@@ -197,6 +180,8 @@ document.addEventListener('DOMContentLoaded', () => {
         id = 2;
     } else if (path.includes('friedrice.html')) {
         id = 3;
+    } else if (path.includes('page4.html')) {
+        id = 4;
     } else {
         console.error('Unknown HTML page:', path);
         return;
@@ -232,7 +217,7 @@ document.getElementById('categoryDropdown3').addEventListener('click', showOrder
 document.querySelector('.close').addEventListener('click', closeOrderPopup);
 
 // Close the modal when clicking outside of it
-window.onclick = function(event) {
+window.onclick = function (event) {
     const modal = document.getElementById('orderPopup');
     if (event.target === modal) {
         modal.style.display = 'none';
