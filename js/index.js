@@ -236,3 +236,24 @@ function closeOrderPopup() {
     const modal = document.getElementById('orderPopup');
     modal.style.display = 'none';
 }
+
+// Show the modal on page load
+window.onload = function() {
+    document.getElementById('imageModal').style.display = 'flex';
+};
+
+// Get the close button element
+const closeBtn = document.querySelector('.close-btn');
+
+// Add click event listener to the close button
+closeBtn.addEventListener('click', function() {
+    document.getElementById('imageModal').style.display = 'none';
+});
+
+// Add click event listener to close the modal when clicking outside of the modal content
+window.addEventListener('click', function(event) {
+    const modal = document.getElementById('imageModal');
+    if (event.target === modal) {
+        modal.style.display = 'none';
+    }
+});
