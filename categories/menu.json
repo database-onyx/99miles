@@ -1,0 +1,1895 @@
+[
+    {
+        "category": "STARTERS",
+        "id": 1,
+        "item": 1,
+        "sub": "BABYCORN SPECIAL",
+        "name": "BABYCORN 65",
+        "price": 170,
+        "isVeg": true
+    },
+    {
+        "id": 1,
+        "item": 2,
+        "sub": "BABYCORN SPECIAL",
+        "name": "BABYCORN CHILLI",
+        "price": 180,
+        "isVeg": true
+    },
+    {
+        "id": 1,
+        "item": 3,
+        "sub": "BABYCORN SPECIAL",
+        "name": "BABYCORN JAPAN",
+        "price": 190,
+        "isVeg": true
+    },
+    {
+        "id": 1,
+        "item": 4,
+        "sub": "BABYCORN SPECIAL",
+        "name": "BABYCORN MAHARANI",
+        "price": 170,
+        "isVeg": true
+    },
+    {
+        "id": 1,
+        "item": 5,
+        "sub": "BABYCORN SPECIAL",
+        "name": "BABYCORN MANCHURIAN",
+        "price": 170,
+        "isVeg": true
+    },
+    {
+        "id": 1,
+        "item": 6,
+        "sub": "BABYCORN SPECIAL",
+        "name": "BABYCORN HOT PEPPER",
+        "price": 170,
+        "isVeg": true
+    },
+    {
+        "category": "VEG STARTERS",
+        "id": 2,
+        "item": 1,
+        "sub": "VEG STARTERS",
+        "name": "GOBI 65",
+        "price": 140,
+        "isVeg": true
+    },
+    {
+        "id": 2,
+        "item": 2,
+        "sub": "VEG STARTERS",
+        "name": "GOBI CHILLI",
+        "price": 140,
+        "isVeg": true
+    },
+    {
+        "id": 2,
+        "item": 3,
+        "sub": "VEG STARTERS",
+        "name": "GOBI JAPAN",
+        "price": 180,
+        "isVeg": true
+    },
+    {
+        "id": 2,
+        "item": 4,
+        "sub": "VEG STARTERS",
+        "name": "GOBI MAHARANI",
+        "price": 150,
+        "isVeg": true
+    },
+    {
+        "id": 2,
+        "item": 5,
+        "sub": "VEG STARTERS",
+        "name": "GOBI MANCHURIAN",
+        "price": 150,
+        "isVeg": true
+    },
+    {
+        "id": 2,
+        "item": 6,
+        "sub": "VEG STARTERS",
+        "name": "GOBI HOT PEPPER",
+        "price": 150,
+        "isVeg": true
+    },
+    {
+        "id": 2,
+        "item": 7,
+        "sub": "VEG STARTERS",
+        "name": "MUSHROOM 65",
+        "price": 140,
+        "isVeg": true
+    },
+    {
+        "id": 2,
+        "item": 8,
+        "sub": "VEG STARTERS",
+        "name": "MUSHROOM CHILLI",
+        "price": 140,
+        "isVeg": true
+    },
+    {
+        "id": 2,
+        "item": 9,
+        "sub": "VEG STARTERS",
+        "name": "MUSHROOM JAPAN",
+        "price": 180,
+        "isVeg": true
+    },
+    {
+        "id": 2,
+        "item": 10,
+        "sub": "VEG STARTERS",
+        "name": "MUSHROOM MAHARANI",
+        "price": 160,
+        "isVeg": true
+    },
+    {
+        "id": 2,
+        "item": 11,
+        "sub": "VEG STARTERS",
+        "name": "MUSHROOM MANCHURIAN",
+        "price": 150,
+        "isVeg": true
+    },
+    {
+        "id": 2,
+        "item": 12,
+        "sub": "VEG STARTERS",
+        "name": "MUSHROOM HOT PEPPER",
+        "price": 160,
+        "isVeg": true
+    },
+    {
+        "id": 2,
+        "item": 13,
+        "sub": "VEG STARTERS",
+        "name": "PANNER 65",
+        "price": 180,
+        "isVeg": true
+    },
+    {
+        "id": 2,
+        "item": 14,
+        "sub": "VEG STARTERS",
+        "name": "PANNER CHILLI",
+        "price": 180,
+        "isVeg": true
+    },
+    {
+        "id": 2,
+        "item": 15,
+        "sub": "VEG STARTERS",
+        "name": "PANNER JAPAN",
+        "price": 210,
+        "isVeg": true
+    },
+    {
+        "id": 2,
+        "item": 16,
+        "sub": "VEG STARTERS",
+        "name": "PANNER MAHARANI",
+        "price": 180,
+        "isVeg": true
+    },
+    {
+        "id": 2,
+        "item": 17,
+        "sub": "VEG STARTERS",
+        "name": "PANNER MANCHURIAN",
+        "price": 180,
+        "isVeg": true
+    },
+    {
+        "id": 2,
+        "item": 18,
+        "sub": "VEG STARTERS",
+        "name": "PANNER HOT PEPPER",
+        "price": 180,
+        "isVeg": true
+    },
+    {
+        "id": 2,
+        "item": 19,
+        "sub": "VEG STARTERS",
+        "name": "PANNER TIKKA",
+        "price": 210,
+        "isVeg": true
+    },
+    {
+        "id": 2,
+        "item": 20,
+        "sub": "VEG STARTERS",
+        "name": "VEG NUGGETS",
+        "price": 160,
+        "isVeg": true
+    },
+    {
+        "category": "CHICKEN STARTERS",
+        "id": 3,
+        "item": 1,
+        "sub": "CHICKEN STARTERS",
+        "name": "CHICKEN FRY",
+        "price": 280,
+        "isNonVeg": true
+    },
+    {
+        "id": 3,
+        "item": 2,
+        "sub": "CHICKEN STARTERS",
+        "name": "CHICKEN CHUKKA",
+        "price": 280,
+        "isNonVeg": true
+    },
+    {
+        "id": 3,
+        "item": 3,
+        "sub": "CHICKEN STARTERS",
+        "name": "PEPPER CHICKEN",
+        "price": 280,
+        "isNonVeg": true
+    },
+    {
+        "id": 3,
+        "item": 4,
+        "sub": "CHICKEN STARTERS",
+        "name": "CHICKEN NALLAMPATTI",
+        "price": 290,
+        "isNonVeg": true
+    },
+    {
+        "id": 3,
+        "item": 5,
+        "sub": "CHICKEN STARTERS",
+        "name": "CHICKEN CHINTHAMANI",
+        "price": 280,
+        "isNonVeg": true
+    },
+    {
+        "id": 3,
+        "item": 6,
+        "sub": "CHICKEN STARTERS",
+        "name": "CHICKEN PALLIPALAYAM",
+        "price": 280,
+        "isNonVeg": true
+    },
+    {
+        "id": 3,
+        "item": 7,
+        "sub": "CHICKEN STARTERS",
+        "name": "PEPPER GARLIC CHICKEN",
+        "price": 290,
+        "isNonVeg": true
+    },
+    {
+        "id": 3,
+        "item": 8,
+        "sub": "CHICKEN STARTERS",
+        "name": "CHICKEN KAATU VARUVAL",
+        "price": 290,
+        "isNonVeg": true
+    },
+    {
+        "id": 3,
+        "item": 9,
+        "sub": "CHICKEN STARTERS",
+        "name": "CHICKEN LOLLY POP",
+        "price": 280,
+        "isNonVeg": true
+    },
+    {
+        "id": 3,
+        "item": 10,
+        "sub": "CHICKEN STARTERS",
+        "name": "CHICKEN 65 BONE",
+        "price": 260,
+        "isNonVeg": true
+    },
+    {
+        "id": 3,
+        "item": 11,
+        "sub": "CHICKEN STARTERS",
+        "name": "CHICKEN GARLIC 65",
+        "price": 280,
+        "isNonVeg": true
+    },
+    {
+        "category": "BONELESS STARTERS",
+        "id": 4,
+        "item": 1,
+        "sub": "BONELESS STARTERS",
+        "name": "CHICKEN 65",
+        "price": 280,
+        "isNonVeg": true
+    },
+    {
+        "id": 4,
+        "item": 2,
+        "sub": "BONELESS STARTERS",
+        "name": "CHICKEN GARLIC 65",
+        "price": 290,
+        "isNonVeg": true
+    },
+    {
+        "id": 4,
+        "item": 3,
+        "sub": "BONELESS STARTERS",
+        "name": "CHICKEN HOT PEPPER",
+        "price": 290,
+        "isNonVeg": true
+    },
+    {
+        "id": 4,
+        "item": 4,
+        "sub": "BONELESS STARTERS",
+        "name": "TOMATO CHICKEN",
+        "price": 290,
+        "isNonVeg": true
+    },
+    {
+        "id": 4,
+        "item": 5,
+        "sub": "BONELESS STARTERS",
+        "name": "GARLIC CHICKEN",
+        "price": 290,
+        "isNonVeg": true
+    },
+    {
+        "id": 4,
+        "item": 6,
+        "sub": "BONELESS STARTERS",
+        "name": "PUDHINA CHICKEN",
+        "price": 290,
+        "isNonVeg": true
+    },
+    {
+        "id": 4,
+        "item": 7,
+        "sub": "BONELESS STARTERS",
+        "name": "CHICKEN MAHARANI",
+        "price": 290,
+        "isNonVeg": true
+    },
+    {
+        "id": 4,
+        "item": 8,
+        "sub": "BONELESS STARTERS",
+        "name": "KERALA CHICKEN",
+        "price": 290,
+        "isNonVeg": true
+    },
+    {
+        "id": 4,
+        "item": 9,
+        "sub": "BONELESS STARTERS",
+        "name": "ANDHRA CHICKEN",
+        "price": 290,
+        "isNonVeg": true
+    },
+    {
+        "id": 4,
+        "item": 10,
+        "sub": "BONELESS STARTERS",
+        "name": "CHICKEN MANCHURIAN",
+        "price": 290,
+        "isNonVeg": true
+    },
+    {
+        "id": 4,
+        "item": 11,
+        "sub": "BONELESS STARTERS",
+        "name": "CHILLI CHICKEN",
+        "price": 290,
+        "isNonVeg": true
+    },
+    {
+        "id": 4,
+        "item": 12,
+        "sub": "BONELESS STARTERS",
+        "name": "GINGER CHICKEN",
+        "price": 290,
+        "isNonVeg": true
+    },
+    {
+        "id": 4,
+        "item": 13,
+        "sub": "BONELESS STARTERS",
+        "name": "CHICKEN NUGGETS",
+        "price": 270,
+        "isNonVeg": true
+    },
+    {
+        "category": "NAATUKOZHLI STARTERS",
+        "id": 5,
+        "item": 1,
+        "sub": "NAATUKOZHLI STARTERS",
+        "name": "NAATUKOZHLI KAATU VARUVAL",
+        "price": 320,
+        "isNonVeg": true
+    },
+    {
+        "id": 5,
+        "item": 2,
+        "sub": "NAATUKOZHLI STARTERS",
+        "name": "NAATUKOZHLI PALLIPALAYAM",
+        "price": 320,
+        "isNonVeg": true
+    },
+    {
+        "id": 5,
+        "item": 3,
+        "sub": "NAATUKOZHLI STARTERS",
+        "name": "NAATUKOZHLI UPPUKARI",
+        "price": 320,
+        "isNonVeg": true
+    },
+    {
+        "id": 5,
+        "item": 4,
+        "sub": "NAATUKOZHLI STARTERS",
+        "name": "NAATUKOZHLI KERALA FRY",
+        "price": 320,
+        "isNonVeg": true
+    },
+    {
+        "id": 5,
+        "item": 5,
+        "sub": "NAATUKOZHLI STARTERS",
+        "name": "NAATUKOZHLI NALLAMPATTY",
+        "price": 320,
+        "isNonVeg": true
+    },
+    {
+        "id": 5,
+        "item": 6,
+        "sub": "NAATUKOZHLI STARTERS",
+        "name": "NAATUKOZHLI PICHU POTTA FRY",
+        "price": 320,
+        "isNonVeg": true
+    },
+    {
+        "id": 5,
+        "item": 7,
+        "sub": "NAATUKOZHLI STARTERS",
+        "name": "NAATUKOZHLI CHUKKA",
+        "price": 320,
+        "isNonVeg": true
+    },
+    {
+        "id": 5,
+        "item": 8,
+        "sub": "NAATUKOZHLI STARTERS",
+        "name": "NAATUKOZHLI CHINTHAMANI",
+        "price": 320,
+        "isNonVeg": true
+    },
+    {
+        "id": 5,
+        "item": 9,
+        "sub": "NAATUKOZHLI STARTERS",
+        "name": "NAATUKOZHLI RANGILA",
+        "price": 320,
+        "isNonVeg": true
+    },
+    {
+        "id": 5,
+        "item": 10,
+        "sub": "NAATUKOZHLI STARTERS",
+        "name": "NAATUKOZHLI ROAST",
+        "price": 320,
+        "isNonVeg": true
+    },
+    {
+        "id": 5,
+        "item": 11,
+        "sub": "NAATUKOZHLI STARTERS",
+        "name": "NAATUKOZHLI PEPPER FRY",
+        "price": 320,
+        "isNonVeg": true
+    },
+    {
+        "category": "TANDOORI STARTERS",
+        "id": 6,
+        "item": 1,
+        "sub": "TANDOORI STARTERS",
+        "name": "CHICKEN TIKKA",
+        "price": 230,
+        "isNonVeg": true
+    },
+    {
+        "id": 6,
+        "item": 2,
+        "sub": "TANDOORI STARTERS",
+        "name": "KALMI KABAB (H/F)",
+        "price": "300/550",
+        "isNonVeg": true
+    },
+    {
+        "id": 6,
+        "item": 64,
+        "sub": "TANDOORI STARTERS",
+        "name": "TANDOORI CHICKEN (H/F)",
+        "price": " 270/520",
+        "isNonVeg": true
+    },
+    {
+        "id": 6,
+        "item": 3,
+        "sub": "TANDOORI STARTERS",
+        "name": "BARBEQUE CHICKEN (H/F)",
+        "price": "300/580",
+        "isNonVeg": true
+    },
+    {
+        "category": "MUTTON STARTERS",
+        "id": 7,
+        "item": 1,
+        "sub": "MUTTON STARTERS",
+        "name": "MUTTON BOTTI",
+        "price": 320,
+        "isNonVeg": true
+    },
+    {
+        "id": 7,
+        "item": 2,
+        "sub": "MUTTON STARTERS",
+        "name": "MUTTON EGG BOTTI",
+        "price": 330,
+        "isNonVeg": true
+    },
+    {
+        "id": 7,
+        "item": 3,
+        "sub": "MUTTON STARTERS",
+        "name": "MUTTON FRY",
+        "price": 360,
+        "isNonVeg": true
+    },
+    {
+        "id": 7,
+        "item": 4,
+        "sub": "MUTTON STARTERS",
+        "name": "MUTTON CHUKKA",
+        "price": 360,
+        "isNonVeg": true
+    },
+    {
+        "id": 7,
+        "item": 5,
+        "sub": "MUTTON STARTERS",
+        "name": "MUTTON UPPUKARI",
+        "price": 360,
+        "isNonVeg": true
+    },
+    {
+        "id": 7,
+        "item": 6,
+        "sub": "MUTTON STARTERS",
+        "name": "MUTTON HOT PEPPER FRY",
+        "price": 360,
+        "isNonVeg": true
+    },
+    {
+        "category": "KAADAI STARTERS",
+        "id": 8,
+        "item": 1,
+        "sub": "KAADAI STARTERS",
+        "name": "KAADAI 65",
+        "price": 170,
+        "isNonVeg": true
+    },
+    {
+        "id": 8,
+        "item": 2,
+        "sub": "KAADAI STARTERS",
+        "name": "KAADAI ROAST",
+        "price": 180,
+        "isNonVeg": true
+    },
+    {
+        "id": 8,
+        "item": 3,
+        "sub": "KAADAI STARTERS",
+        "name": "KAADAI HOT PEPPER",
+        "price": 190,
+        "isNonVeg": true
+    },
+    {
+        "id": 8,
+        "item": 4,
+        "sub": "KAADAI STARTERS",
+        "name": "KAADAI PEPPER FRY",
+        "price": 190,
+        "isNonVeg": true
+    },
+    {
+        "id": 8,
+        "item": 5,
+        "sub": "KAADAI STARTERS",
+        "name": "KAADAI MANCHURIAN",
+        "price": 190,
+        "isNonVeg": true
+    },
+    {
+        "category": "RABBIT STARTERS",
+        "id": 9,
+        "item": 1,
+        "sub": "RABBIT STARTERS",
+        "name": "RABBIT 65",
+        "price": 310,
+        "isNonVeg": true
+    },
+    {
+        "id": 9,
+        "item": 2,
+        "sub": "RABBIT STARTERS",
+        "name": "RABBIT CHUKKA",
+        "price": 320,
+        "isNonVeg": true
+    },
+    {
+        "id": 9,
+        "item": 3,
+        "sub": "RABBIT STARTERS",
+        "name": "RABBIT PEPPER FRY",
+        "price": 320,
+        "isNonVeg": true
+    },
+    {
+        "id": 9,
+        "item": 4,
+        "sub": "RABBIT STARTERS",
+        "name": "RABBIT UPPUKARI",
+        "price": 320,
+        "isNonVeg": true
+    },
+    {
+        "id": 9,
+        "item": 5,
+        "sub": "RABBIT STARTERS",
+        "name": "RABBIT RANGILA",
+        "price": 320,
+        "isNonVeg": true
+    },
+    {
+        "category": "PEGION STARTERS",
+        "id": 10,
+        "item": 1,
+        "sub": "PEGION STARTERS",
+        "name": "PEGION CHUKKA",
+        "price": 270,
+        "isNonVeg": true
+    },
+    {
+        "id": 10,
+        "item": 2,
+        "sub": "PEGION STARTERS",
+        "name": "PEGION PEPPER FRY",
+        "price": 270,
+        "isNonVeg": true
+    },
+    {
+        "id": 10,
+        "item": 3,
+        "sub": "PEGION STARTERS",
+        "name": "PEGION UPPUKARI",
+        "price": 270,
+        "isNonVeg": true
+    },
+    {
+        "id": 10,
+        "item": 4,
+        "sub": "PEGION STARTERS",
+        "name": "PEGION RANGILA",
+        "price": 270,
+        "isNonVeg": true
+    },
+    {
+        "category": "VEG RICE & NOODLES",
+        "id": 11,
+        "item": 1,
+        "sub": "VEG RICE",
+        "name": "DHAL RICE",
+        "price": 150,
+        "isVeg": true
+    },
+    {
+        "id": 11,
+        "item": 2,
+        "sub": "VEG RICE",
+        "name": "JEERA RICE",
+        "price": 140,
+        "isVeg": true
+    },
+    {
+        "id": 11,
+        "item": 3,
+        "sub": "VEG RICE",
+        "name": "GHEE RICE",
+        "price": 150,
+        "isVeg": true
+    },
+    {
+        "id": 11,
+        "item": 4,
+        "sub": "VEG RICE",
+        "name": "VEG FRIED RICE",
+        "price": 140,
+        "isVeg": true
+    },
+    {
+        "id": 11,
+        "item": 5,
+        "sub": "VEG RICE",
+        "name": "VEG SCHEZWAN FRIED RICE",
+        "price": 150,
+        "isVeg": true
+    },
+    {
+        "id": 11,
+        "item": 6,
+        "sub": "VEG RICE",
+        "name": "GOPI RICE",
+        "price": 130,
+        "isVeg": true
+    },
+    {
+        "id": 11,
+        "item": 7,
+        "sub": "VEG RICE",
+        "name": "GOPI SCHEZWAN FRIED RICE",
+        "price": 140,
+        "isVeg": true
+    },
+    {
+        "id": 11,
+        "item": 8,
+        "sub": "VEG RICE",
+        "name": "MUSHROOM RICE",
+        "price": 150,
+        "isVeg": true
+    },
+    {
+        "id": 11,
+        "item": 9,
+        "sub": "VEG RICE",
+        "name": "MUSHROOM SCHEZWAN FRIED RICE",
+        "price": 160,
+        "isVeg": true
+    },
+    {
+        "id": 11,
+        "item": 10,
+        "sub": "VEG RICE",
+        "name": "PANNER RICE",
+        "price": 190,
+        "isVeg": true
+    },
+    {
+        "id": 11,
+        "item": 11,
+        "sub": "VEG RICE",
+        "name": "PANNERT SCHEZWAN FRIED RICE",
+        "price": 200,
+        "isVeg": true
+    },
+    {
+        "category": "RICE-NOODLES ",
+        "id": 11,
+        "item": 1,
+        "sub": "RICE",
+        "name": "EGG FRIED RICE",
+        "price": 150,
+        "isNonVeg": true
+    },
+    {
+        "id": 11,
+        "item": 2,
+        "sub": "RICE",
+        "name": "EGG SCHEZWAN RICE",
+        "price": 160,
+        "isNonVeg": true
+    },
+    {
+        "id": 11,
+        "item": 3,
+        "sub": "RICE",
+        "name": "CHICKEN FRIED RICE",
+        "price": 180,
+        "isNonVeg": true
+    },
+    {
+        "id": 11,
+        "item": 4,
+        "sub": "RICE",
+        "name": "CHICKEN SCHEZWAN RICE",
+        "price": 190,
+        "isNonVeg": true
+    },
+    {
+        "id": 11,
+        "item": 5,
+        "sub": "RICE",
+        "name": "FISH FRIED RICE",
+        "price": 190,
+        "isNonVeg": true
+    },
+    {
+        "id": 11,
+        "item": 6,
+        "sub": "RICE",
+        "name": "FISH SCHEZWAN RICE",
+        "price": 200,
+        "isNonVeg": true
+    },
+    {
+        "id": 11,
+        "item": 7,
+        "sub": "RICE",
+        "name": "PRAWN FRIED RICE",
+        "price": 200,
+        "isNonVeg": true
+    },
+    {
+        "id": 11,
+        "item": 8,
+        "sub": "RICE",
+        "name": "PRAWN SCHEZWAN RICE",
+        "price": 220,
+        "isNonVeg": true
+    },
+    {
+        "id": 11,
+        "item": 9,
+        "sub": "RICE",
+        "name": "MUTTON FRIED RICE",
+        "price": 250,
+        "isNonVeg": true
+    },
+    {
+        "id": 11,
+        "item": 10,
+        "sub": "RICE",
+        "name": "MUTTON SCHEZWAN RICE",
+        "price": 260,
+        "isNonVeg": true
+    },
+    {
+        "id": 11,
+        "item": 11,
+        "sub": "RICE",
+        "name": "MIXED FRIED RICE",
+        "price": 260,
+        "isNonVeg": true
+    },
+    {
+        "id": 11,
+        "item": 12,
+        "sub": "RICE",
+        "name": "MIXED SCHEZWAN RICE",
+        "price": 280,
+        "isNonVeg": true
+    },
+    {
+        "id": 11,
+        "item": 13,
+        "sub": "RICE",
+        "name": "NALLAMPATTI CHICKEN RICE",
+        "price": 230,
+        "isNonVeg": true
+    },
+    {
+        "id": 11,
+        "item": 14,
+        "sub": "RICE",
+        "name": "N.KOZHLI NALLAMPATTI RICE",
+        "price": 290,
+        "isNonVeg": true
+    },
+    {
+        "id": 11,
+        "item": 12,
+        "sub": "VEG RICE",
+        "name": "NALLAMPATTI VEG RICE",
+        "price": 180,
+        "isVeg": true
+    },
+    {
+        "id": 20,
+        "item": 13,
+        "sub": "VEG RICE",
+        "name": "VEG NOODLES",
+        "price": 140,
+        "isVeg": true
+    },
+    {
+        "id": 20,
+        "item": 14,
+        "sub": "VEG NOODLES",
+        "name": "VEG SCHEZWAN NOODLES",
+        "price": 150,
+        "isVeg": true
+    },
+    {
+        "id": 20,
+        "item": 15,
+        "sub": "VEG NOODLES",
+        "name": "GOBI NOODLES",
+        "price": 130,
+        "isVeg": true
+    },
+    {
+        "id": 20,
+        "item": 16,
+        "sub": "VEG NOODLES",
+        "name": "GOBI SCHEZWAN NOODLES",
+        "price": 140,
+        "isVeg": true
+    },
+    {
+        "id": 20,
+        "item": 17,
+        "sub": "VEG NOODLES",
+        "name": "MUSHROOM NOODLES",
+        "price": 150,
+        "isVeg": true
+    },
+    {
+        "id": 20,
+        "item": 18,
+        "sub": "VEG NOODLES",
+        "name": "MUSHROOM SCHEZWAN NOODLES",
+        "price": 160,
+        "isVeg": true
+    },
+    {
+        "id": 20,
+        "item": 19,
+        "sub": "VEG NOODLES",
+        "name": "PANNER NOODLES",
+        "price": 190,
+        "isVeg": true
+    },
+    {
+        "id": 20,
+        "item": 20,
+        "sub": "VEG NOODLES",
+        "name": "PANNER SCHEZWAN NOODLES",
+        "price": 200,
+        "isVeg": true
+    },
+    {
+        "category": "RICE-NOODLES ",
+        "id": 20,
+        "item": 1,
+        "sub": "RICE",
+        "name": "EGG NOODLES",
+        "price": 150,
+        "isNonVeg": true
+    },
+    {
+        "id": 20,
+        "item": 2,
+        "sub": "RICE",
+        "name": "EGG SCHEZWAN NOODLES ",
+        "price": 160,
+        "isNonVeg": true
+    },
+    {
+        "id": 20,
+        "item": 3,
+        "sub": "RICE",
+        "name": "CHICKEN NOODLES ",
+        "price": 180,
+        "isNonVeg": true
+    },
+    {
+        "id": 20,
+        "item": 4,
+        "sub": "RICE",
+        "name": "CHICKEN SCHEZWAN NOODLES ",
+        "price": 190,
+        "isNonVeg": true
+    },
+    {
+        "category": "SEAFOOD",
+        "id": 12,
+        "item": 1,
+        "sub": "CRAB STARTERS",
+        "name": "CRAB LOLLIPOP",
+        "price": 220,
+        "isNonVeg": true
+    },
+    {
+        "id": 12,
+        "item": 2,
+        "sub": "CRAB STARTERS",
+        "name": "CRAB FRY",
+        "price": 230,
+        "isNonVeg": true
+    },
+    {
+        "id": 29,
+        "item": 3,
+        "sub": "FISH STARTERS",
+        "name": "FISH FRY",
+        "price": 240,
+        "isNonVeg": true
+    },
+    {
+        "id": 29,
+        "item": 4,
+        "sub": "FISH STARTERS",
+        "name": "FISH NETHILI",
+        "price": 240,
+        "isNonVeg": true
+    },
+    {
+        "id": 29,
+        "item": 5,
+        "sub": "FISH STARTERS",
+        "name": "FISH NETHILI HOT PEPPER",
+        "price": 250,
+        "isNonVeg": true
+    },
+    {
+        "id": 29,
+        "item": 6,
+        "sub": "FISH STARTERS",
+        "name": "FISH 65/CHILLI",
+        "price": 250,
+        "isNonVeg": true
+    },
+    {
+        "id": 29,
+        "item": 7,
+        "sub": "FISH STARTERS",
+        "name": "FISH MANCHURIAN",
+        "price": 250,
+        "isNonVeg": true
+    },
+    {
+        "id": 29,
+        "item": 8,
+        "sub": "FISH STARTERS",
+        "name": "FISH MAHARANI",
+        "price": 260,
+        "isNonVeg": true
+    },
+    {
+        "id": 29,
+        "item": 9,
+        "sub": "FISH STARTERS",
+        "name": "FISH HOT PEPPER",
+        "price": 260,
+        "isNonVeg": true
+    },
+    {
+        "id": 29,
+        "item": 10,
+        "sub": "FISH STARTERS",
+        "name": "FISH VANJARAM",
+        "price": 290,
+        "isNonVeg": true
+    },
+    {
+        "id": 29,
+        "item": 11,
+        "sub": "FISH STARTERS",
+        "name": "FISH FINGER",
+        "price": 260,
+        "isNonVeg": true
+    },
+    {
+        "id": 29,
+        "item": 12,
+        "sub": "FISH STARTERS",
+        "name": "FISH JAPAN",
+        "price": 300,
+        "isNonVeg": true
+    },
+    {
+        "id": 30,
+        "item": 13,
+        "sub": "PRAWN STARTERS",
+        "name": "PRAWN FRY",
+        "price": 310,
+        "isNonVeg": true
+    },
+    {
+        "id": 30,
+        "item": 14,
+        "sub": "PRAWN STARTERS",
+        "name": "PRAWN 65/CHILLI",
+        "price": 300,
+        "isNonVeg": true
+    },
+    {
+        "id": 30,
+        "item": 15,
+        "sub": "PRAWN STARTERS",
+        "name": "PRAWN MANCHURIAN",
+        "price": 310,
+        "isNonVeg": true
+    },
+    {
+        "id": 30,
+        "item": 16,
+        "sub": "PRAWN STARTERS",
+        "name": "PRAWN PEPPER FRY",
+        "price": 310,
+        "isNonVeg": true
+    },
+    {
+        "id": 30,
+        "item": 17,
+        "sub": "PRAWN STARTERS",
+        "name": "PRAWN MAHARANI",
+        "price": 310,
+        "isNonVeg": true
+    },
+    {
+        "id": 30,
+        "item": 18,
+        "sub": "PRAWN STARTERS",
+        "name": "PRAWN HOT PEPPER",
+        "price": 310,
+        "isNonVeg": true
+    },
+    {
+        "id": 30,
+        "item": 19,
+        "sub": "PRAWN STARTERS",
+        "name": "PRAWN JAPAN",
+        "price": 350,
+        "isNonVeg": true
+    },
+    {
+        "category": "99 MILES SPECIAL",
+        "id": 13,
+        "item": 1,
+        "sub": "99 SPECIAL",
+        "name": "JAPAN CHICKEN",
+        "price": 350,
+        "isNonVeg": true
+    },
+    {
+        "id": 13,
+        "item": 2,
+        "sub": "99 SPECIAL",
+        "name": "CHICKEN UPPUKARI",
+        "price": 280,
+        "isNonVeg": true
+    },
+    {
+        "id": 13,
+        "item": 3,
+        "sub": "99 SPECIAL",
+        "name": "CHICKEN RANGILA",
+        "price": 280,
+        "isNonVeg": true
+    },
+    {
+        "id": 13,
+        "item": 4,
+        "sub": "99 SPECIAL",
+        "name": "DRAGON CHICKEN",
+        "price": 280,
+        "isNonVeg": true
+    },
+    {
+        "id": 13,
+        "item": 5,
+        "sub": "99 SPECIAL",
+        "name": "BOMBAY CHICKEN",
+        "price": 280,
+        "isNonVeg": true
+    },
+    {
+        "id": 13,
+        "item": 6,
+        "sub": "99 SPECIAL",
+        "name": "CHICKEN PAKKODA",
+        "price": 280,
+        "isNonVeg": true
+    },
+    {
+        "id": 13,
+        "item": 7,
+        "sub": "99 SPECIAL",
+        "name": "007 CHICKEN",
+        "price": 290,
+        "isNonVeg": true
+    },
+    {
+        "id": 13,
+        "item": 8,
+        "sub": "99 SPECIAL",
+        "name": "CHICKEN SIVAKASI",
+        "price": 280,
+        "isNonVeg": true
+    },
+    {
+        "id": 13,
+        "item": 9,
+        "sub": "99 SPECIAL",
+        "name": "LEMON CHICKEN",
+        "price": 280,
+        "isNonVeg": true
+    },
+    {
+        "id": 13,
+        "item": 10,
+        "sub": "99 SPECIAL",
+        "name": "CHICKEN PICHU POTTA FRY",
+        "price": 280,
+        "isNonVeg": true
+    },
+    {
+        "id": 13,
+        "item": 11,
+        "sub": "99 SPECIAL",
+        "name": "HYDERABAD CHICKEN",
+        "price": 280,
+        "isNonVeg": true
+    },
+    {
+        "id": 13,
+        "item": 12,
+        "sub": "99 SPECIAL",
+        "name": "CHICKEN LIVER PEPPER FRY",
+        "price": 280,
+        "isNonVeg": true
+    },
+    {
+        "id": 13,
+        "item": 13,
+        "sub": "99 SPECIAL",
+        "name": "99 FRIED CHICKEN",
+        "price": 280,
+        "isNonVeg": true
+    },
+    {
+        "id": 13,
+        "item": 13,
+        "sub": "99 SPECIAL",
+        "name": "Sizzler Chicken",
+        "price": 700,
+        "isNonVeg": true
+    },
+    {
+        "category": "GRAVY",
+        "id": 14,
+        "item": 1,
+        "sub": "CHICKEN GRAVY",
+        "name": "TOMOTO CHICKEN",
+        "price": 280,
+        "isNonVeg": true
+    },
+    {
+        "id": 14,
+        "item": 2,
+        "sub": "CHICKEN GRAVY",
+        "name": "CHICKEN MASALA",
+        "price": 280,
+        "isNonVeg": true
+    },
+    {
+        "id": 14,
+        "item": 3,
+        "sub": "CHICKEN GRAVY",
+        "name": "CHICKEN KADAAI",
+        "price": 280,
+        "isNonVeg": true
+    },
+    {
+        "id": 14,
+        "item": 4,
+        "sub": "CHICKEN GRAVY",
+        "name": "CHICKEN CHETTINADU",
+        "price": 280,
+        "isNonVeg": true
+    },
+    {
+        "id": 14,
+        "item": 5,
+        "sub": "CHICKEN GRAVY",
+        "name": "PEPPER CHICKEN",
+        "price": 280,
+        "isNonVeg": true
+    },
+    {
+        "id": 14,
+        "item": 6,
+        "sub": "CHICKEN GRAVY",
+        "name": "HYDRABAD CHICKEN",
+        "price": 280,
+        "isNonVeg": true
+    },
+    {
+        "id": 14,
+        "item": 7,
+        "sub": "CHICKEN GRAVY",
+        "name": "GINGER CHICKEN B/L",
+        "price": 290,
+        "isNonVeg": true
+    },
+    {
+        "id": 14,
+        "item": 8,
+        "sub": "CHICKEN GRAVY",
+        "name": "GARLIC CHICKEN B/L",
+        "price": 290,
+        "isNonVeg": true
+    },
+    {
+        "id": 14,
+        "item": 9,
+        "sub": "CHICKEN GRAVY",
+        "name": "BUTTER CHICKEN B/L",
+        "price": 300,
+        "isNonVeg": true
+    },
+    {
+        "id": 14,
+        "item": 10,
+        "sub": "CHICKEN GRAVY",
+        "name": "CHICKEN THANNI KULAMBU",
+        "price": 280,
+        "isNonVeg": true
+    },
+    {
+        "id": 21,
+        "item": 11,
+        "sub": "NATTUKOZHLI GRAVY",
+        "name": "NATTUKOZHLI MASALA",
+        "price": 320,
+        "isNonVeg": true
+    },
+    {
+        "id": 21,
+        "item": 12,
+        "sub": "NATTUKOZHLI GRAVY",
+        "name": "NATTUKOZHLI THANNI KULAMBU",
+        "price": 330,
+        "isNonVeg": true
+    },
+    {
+        "id": 21,
+        "item": 13,
+        "sub": "NATTUKOZHLI GRAVY",
+        "name": "NATTUKOZHLI CHETTINADU",
+        "price": 320,
+        "isNonVeg": true
+    },
+    {
+        "id": 22,
+        "item": 14,
+        "sub": "MUTTON GRAVY",
+        "name": "MUTTON MASALA",
+        "price": 360,
+        "isNonVeg": true
+    },
+    {
+        "id": 22,
+        "item": 15,
+        "sub": "MUTTON GRAVY",
+        "name": "BOTTI MASALA",
+        "price": 340,
+        "isNonVeg": true
+    },
+    {
+        "id": 23,
+        "item": 16,
+        "sub": "PRAWN GRAVY",
+        "name": "PRAWN MASALA",
+        "price": 310,
+        "isNonVeg": true
+    },
+    {
+        "id": 24,
+        "item": 17,
+        "sub": "KAADAI GRAVY",
+        "name": "KAADAI MASALA",
+        "price": 240,
+        "isNonVeg": true
+    },
+    {
+        "id": 25,
+        "item": 18,
+        "sub": "RABBIT GRAVY",
+        "name": "RABBIT MASALA",
+        "price": 340,
+        "isNonVeg": true
+    },
+    {
+        "id": 26,
+        "item": 19,
+        "sub": "PEGION GRAVY",
+        "name": "PEGION MASALA",
+        "price": 270,
+        "isNonVeg": true
+    },
+    {
+        "id": 27,
+        "item": 20,
+        "sub": "VEG GRAVY",
+        "name": "DHAL FRY",
+        "price": 130,
+        "isVeg": true
+    },
+    {
+        "id": 27,
+        "item": 21,
+        "sub": "VEG GRAVY",
+        "name": "DHAL THADUKA",
+        "price": 140,
+        "isVeg": true
+    },
+    {
+        "id": 27,
+        "item": 22,
+        "sub": "VEG GRAVY",
+        "name": "VEG MIX",
+        "price": 170,
+        "isVeg": true
+    },
+    {
+        "id": 27,
+        "item": 23,
+        "sub": "VEG GRAVY",
+        "name": "GOPI MASALA",
+        "price": 160,
+        "isVeg": true
+    },
+    {
+        "id": 27,
+        "item": 24,
+        "sub": "VEG GRAVY",
+        "name": "MUSHROOM MASALA",
+        "price": 170,
+        "isVeg": true
+    },
+    {
+        "id": 27,
+        "item": 25,
+        "sub": "VEG GRAVY",
+        "name": "PANNER MASALA",
+        "price": 190,
+        "isVeg": true
+    },
+    {
+        "id": 27,
+        "item": 26,
+        "sub": "VEG GRAVY",
+        "name": "GOBI CHETINADU",
+        "price": 170,
+        "isVeg": true
+    },
+    {
+        "id": 27,
+        "item": 27,
+        "sub": "VEG GRAVY",
+        "name": "MUSHROOM CHETINADU",
+        "price": 180,
+        "isVeg": true
+    },
+    {
+        "id": 27,
+        "item": 28,
+        "sub": "VEG GRAVY",
+        "name": "PANNER CHETINADU",
+        "price": 200,
+        "isVeg": true
+    },
+    {
+        "id": 27,
+        "item": 29,
+        "sub": "VEG GRAVY",
+        "name": "PANNER BUTTER MASALA",
+        "price": 220,
+        "isVeg": true
+    },
+    {
+        "id": 27,
+        "item": 30,
+        "sub": "VEG GRAVY",
+        "name": "GOPI KADAAI MASALA",
+        "price": 170,
+        "isVeg": true
+    },
+    {
+        "id": 27,
+        "item": 31,
+        "sub": "VEG GRAVY",
+        "name": "MUSHROOM KADAAI MASALA",
+        "price": 180,
+        "isVeg": true
+    },
+    {
+        "id": 27,
+        "item": 32,
+        "sub": "VEG GRAVY",
+        "name": "PANNER KADAAI MASALA",
+        "price": 190,
+        "isVeg": true
+    },
+    {
+        "id": 28,
+        "item": 33,
+        "sub": "EGG GRAVY",
+        "name": "EGG KEEMA",
+        "price": 160,
+        "isVeg": true
+    },
+    {
+        "id": 28,
+        "item": 34,
+        "sub": "EGG GRAVY",
+        "name": "EGG MASALA",
+        "price": 170,
+        "isVeg": true
+    },
+    {
+        "id": 28,
+        "item": 35,
+        "sub": "EGG GRAVY",
+        "name": "TOMATO EGG MASALA",
+        "price": 170,
+        "isVeg": true
+    },
+    {
+        "category": "DOSA",
+        "id": 31,
+        "item": 1,
+        "sub": "DOSA",
+        "name": "KAL DOSA",
+        "price": 40,
+        "isNonVeg": true
+    },
+    {
+        "id": 31,
+        "item": 2,
+        "sub": "DOSA",
+        "name": "EGG KAL DOSA",
+        "price": 60,
+        "isNonVeg": true
+    },
+    {
+        "id": 31,
+        "item": 3,
+        "sub": "DOSA",
+        "name": "CHICKEN DOSA",
+        "price": 120,
+        "isNonVeg": true
+    },
+    {
+        "id": 31,
+        "item": 4,
+        "sub": "DOSA",
+        "name": "MUTTON DOSA",
+        "price": 140,
+        "isNonVeg": true
+    },
+    {
+        "category": "NAAN & ROTTI",
+        "id": 16,
+        "item": 1,
+        "sub": "NAAN & ROTTI",
+        "name": "PLAIN ROTTI",
+        "price": 30,
+        "isVeg": true
+    },
+    {
+        "id": 16,
+        "item": 2,
+        "sub": "NAAN & ROTTI",
+        "name": "BUTTER ROTTI",
+        "price": 40,
+        "isVeg": true
+    },
+    {
+        "id": 16,
+        "item": 3,
+        "sub": "NAAN & ROTTI",
+        "name": "PLAIN NAAN",
+        "price": 40,
+        "isVeg": true
+    },
+    {
+        "id": 16,
+        "item": 4,
+        "sub": "NAAN & ROTTI",
+        "name": "BUTTER NAAN",
+        "price": 45,
+        "isVeg": true
+    },
+    {
+        "id": 16,
+        "item": 5,
+        "sub": "NAAN & ROTTI",
+        "name": "KULCHA",
+        "price": 35,
+        "isVeg": true
+    },
+    {
+        "id": 16,
+        "item": 6,
+        "sub": "NAAN & ROTTI",
+        "name": "BUTTER KULCHA",
+        "price": 40,
+        "isVeg": true
+    },
+    {
+        "id": 16,
+        "item": 7,
+        "sub": "NAAN & ROTTI",
+        "name": "PHULKA",
+        "price": 35,
+        "isVeg": true
+    },
+    {
+        "id": 16,
+        "item": 8,
+        "sub": "NAAN & ROTTI",
+        "name": "BUTTER PHULKA",
+        "price": 40,
+        "isVeg": true
+    },
+    {
+        "id": 16,
+        "item": 9,
+        "sub": "NAAN & ROTTI",
+        "name": "CHAPPATHI",
+        "price": 40,
+        "isVeg": true
+    },
+    {
+        "category": "CURD RICE",
+        "id": 17,
+        "item": 1,
+        "sub": "CURD",
+        "name": "CURD RICE",
+        "price": 70,
+        "isVeg": true
+    },
+    {
+        "id": 17,
+        "item": 2,
+        "sub": "CURD",
+        "name": "ONION CURD RICE",
+        "price": 80,
+        "isVeg": true
+    },
+    {
+        "id": 17,
+        "item": 3,
+        "sub": "CURD",
+        "name": "CURD RICE WITH FRUITS",
+        "price": 110,
+        "isVeg": true
+    },
+    {
+        "id": 17,
+        "item": 4,
+        "sub": "CURD",
+        "name": "CURD RICE FRUITS & NUTS",
+        "price": 120,
+        "isVeg": true
+    },
+    {
+        "id": 17,
+        "item": 5,
+        "sub": "CURD",
+        "name": "PLAIN CURD 1 CUP",
+        "price": 40,
+        "isVeg": true
+    },
+    {
+        "category": "EGG",
+        "id": 18,
+        "item": 1,
+        "sub": "EGG",
+        "name": "DOUBLE OMLET",
+        "price": 110,
+        "isNonVeg": true
+    },
+    {
+        "id": 18,
+        "item": 2,
+        "sub": "EGG",
+        "name": "KALAKKI OMLET",
+        "price": 110,
+        "isNonVeg": true
+    },
+    {
+        "id": 18,
+        "item": 3,
+        "sub": "EGG",
+        "name": "ONE SIDE OMLET",
+        "price": 110,
+        "isNonVeg": true
+    },
+    {
+        "id": 18,
+        "item": 4,
+        "sub": "EGG",
+        "name": "EGG PORIYAL",
+        "price": 100,
+        "isNonVeg": true
+    },
+    {
+        "id": 18,
+        "item": 5,
+        "sub": "EGG",
+        "name": "EGG 65",
+        "price": 110,
+        "isNonVeg": true
+    },
+    {
+        "id": 18,
+        "item": 6,
+        "sub": "EGG",
+        "name": "HALF BOIL",
+        "price": 60,
+        "isNonVeg": true
+    },
+    {
+        "id": 18,
+        "item": 7,
+        "sub": "EGG",
+        "name": "BOILED EGG",
+        "price": 25,
+        "isNonVeg": true
+    },
+    {
+        "category": "ICE CREAMS & SOFT DRINKS",
+        "id": 19,
+        "item": 1,
+        "sub": "BEVERAGES",
+        "name": "MINERAL WATER",
+        "price": 30,
+        "isVeg": true
+    },
+    {
+        "id": 19,
+        "item": 2,
+        "sub": "BEVERAGES",
+        "name": "LIME JUICE",
+        "price": 40,
+        "isVeg": true
+    },
+    {
+        "id": 19,
+        "item": 3,
+        "sub": "BEVERAGES",
+        "name": "SODA",
+        "price": 30,
+        "isVeg": true
+    },
+    {
+        "id": 19,
+        "item": 4,
+        "sub": "BEVERAGES",
+        "name": "LIME SODA (SWEET/SALT)",
+        "price": 55,
+        "isVeg": true
+    },
+    {
+        "id": 19,
+        "item": 5,
+        "sub": "BEVERAGES",
+        "name": "MOJITO (BLUE/MINT)",
+        "price": 90,
+        "isVeg": true
+    },
+    {
+        "id": 19,
+        "item": 6,
+        "sub": "BEVERAGES",
+        "name": "SOFT DRINKS",
+        "price": 50,
+        "isVeg": true
+    },
+    {
+        "id": 19,
+        "item": 7,
+        "sub": "BEVERAGES",
+        "name": "GOLI SODA ORANGE",
+        "price": 30,
+        "isVeg": true
+    },
+    {
+        "id": 19,
+        "item": 7,
+        "sub": "BEVERAGES",
+        "name": "GOLI SODA PANNER",
+        "price": 30,
+        "isVeg": true
+    },
+    {
+        "id": 19,
+        "item": 7,
+        "sub": "BEVERAGES",
+        "name": "GOLI SODA BLUEBERRY",
+        "price": 30,
+        "isVeg": true
+    },
+    {
+        "id": 19,
+        "item": 7,
+        "sub": "BEVERAGES",
+        "name": "GOLI SODA LEMON",
+        "price": 30,
+        "isVeg": true
+    },
+    {
+        "id": 19,
+        "item": 7,
+        "sub": "BEVERAGES",
+        "name": "GOLI SODA GINGER",
+        "price": 30,
+        "isVeg": true
+    },
+    {
+        "id": 19,
+        "item": 7,
+        "sub": "BEVERAGES",
+        "name": "GOLI SODA PINEAPPLE",
+        "price": 30,
+        "isVeg": true
+    },
+    {
+        "id": 32,
+        "item": 8,
+        "sub": "DESERTS",
+        "name": "SWEET BEEDA",
+        "price": 30,
+        "isVeg": true
+    },
+    {
+        "id": 32,
+        "item": 9,
+        "sub": "DESERTS",
+        "name": "GULAB JAMUN",
+        "price": 40,
+        "isVeg": true
+    },
+    {
+        "id": 32,
+        "item": 10,
+        "sub": "DESERTS",
+        "name": "KULFI",
+        "price": "",
+        "isVeg": true
+    },
+    {
+        "id": 32,
+        "item": 11,
+        "sub": "DESERTS",
+        "name": "ICE CREAM",
+        "price": 50,
+        "isVeg": true
+    },
+    {
+        "id": 32,
+        "item": 12,
+        "sub": "DESERTS",
+        "name": "ICE CREAM WITH GULAB JAMUN",
+        "price": 80,
+        "isVeg": true
+    },
+    {
+        "id": 32,
+        "item": 13,
+        "sub": "PAYASAM",
+        "name": "99MILES SPECIAL PAYASAM",
+        "price": 70,
+        "isVeg": true
+    }
+]

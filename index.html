@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>99 Miles Dhaba</title>
+    <link rel="stylesheet" href="css/istyles.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .btn-spacing {
+            margin-left: 10px;
+        }
+        .cat-nav {
+            white-space: nowrap;
+            cursor: pointer;
+        }
+        .active-line {
+            border-bottom: 2px solid;
+        }
+        .category-card {
+            margin: 0px !important;
+            width: 8rem !important;
+            height: 6rem;
+            text-decoration: none;
+            color: black;
+
+        }
+        .category-card img {
+            margin-top: 10px;
+            max-width: 67%;
+            height: auto;
+            margin-bottom: 0px;
+        }
+        .category-card h4 {
+            color: black;
+            margin-top: 1rem;
+        }
+        .category-section {
+            display: none;
+        }   
+        #menu-items {
+            display: none;
+        } 
+        .cat-nav {
+            cursor: pointer;
+            padding:0px 2px;
+            white-space: nowrap;
+        }
+        
+        .active-line {
+            border-bottom: 3px solid #000; /* Active line style */
+        }
+
+        .row.flex-nowrap {
+            overflow-x: auto;
+            white-space: nowrap;
+            -webkit-overflow-scrolling: touch; /* For smooth scrolling */
+        }
+
+        .col-auto {
+            display: inline-block; /* Prevent wrapping */
+        }
+
+   
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="container-fluid mt-2" >
+        <div class="row align-items-center">
+            <div class="col-6 col-md-2 d-flex justify-content-start">
+                <img class="nav-img img-fluid" src="images/99LOGO.png" alt="99miles-Logo">
+            </div>
+            <div class="col-6 col-md-2 offset-md-8 d-flex justify-content-end">
+                <img class="nav-img img-fluid" src="images/hut.png" alt="99miles-hutnumber">
+            </div>
+        </div>
+    </div>
+
+
+    <div id="imageModal" class="modal">
+        <div class="modal-content" style="background-color:#fefefe00;padding:10px; width: 100%; height: 66%;Margin-top:30%; box-shadow:none; border:none;">
+            <span class="close-btn" style="position: absolute;font-size: 63px;right: 30px;top: 1px;color: #ffffffcf;">&times;</span>
+            <img src="images/promotion1.png" alt="Announcement" class="modal-image">
+        </div>
+    </div>
+    <!-- Category Navigation -->
+    <section class="mt-5">
+        <div class="container-fluid">
+            <div class="row flex-nowrap overflow-auto"  id="swipeContainer">
+                <div class="col-auto">
+                    <h1 class="cat-nav active-line" id="starterBtn" >STARTERS</h1>
+                </div>
+                <div class="col-auto">
+                    <h1 class="cat-nav" id="foodBtn" >Gravy</h1>
+                </div>
+                <div class="col-auto">
+                    <h1 class="cat-nav" id="seafoodBtn" >SEA-FOOD</h1>
+                </div>
+                <div class="col-auto">
+                    <h1 class="cat-nav" id="mainfoodBtn" >FOOD</h1>
+                </div>
+                <div class="col-auto">
+                    <h1 class="cat-nav" id="beveragesBtn">BEVERAGES</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!-- 
+        <div class="container-fluid mt-2">
+            <div class="row align-items-center">    
+                <div class="col-4 cont-padd ">
+
+                </div>
+                <div class="col-8 col-md-12 d-flex justify-content-end">
+
+                    <button id="allButton" class="btn btn-outline-warning btn-sm btn-spacing"><i class="fa-solid fa-circle fa-xs"></i>&nbsp; All</button>
+                    <button id="vegButton" class="btn btn-outline-success btn-sm btn-spacing"><i class="fa-solid fa-circle fa-xs"></i>&nbsp; Veg</button>
+                    <button id="nonVegButton" class="btn btn-outline-danger btn-sm btn-spacing"><i class="fa-solid fa-circle fa-xs"></i>&nbsp; Non-Veg</button>
+                </div>
+            </div>
+        </div> -->
+
+        
+        <div class="container-fluid mt-2">
+            <div class="row">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-9">
+                    <div class="row ml-2 mr-2" id="menu-items">
+                        <!-- Dynamic content will be inserted here -->
+                    </div>
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+        </div>
+        
+    <!-- Links to Category Pages - Starter -->
+    <section class="container mt-3 category-section font" id="starterSection">
+        <div class="row justify-content-center">
+            <div class="col-4  mb-3 cont-padd col-sm-4 col-md-3 col-lg-2 d-flex justify-content-center">
+                <a href="categories/starters/99special.html" class="card category-card">
+                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                        <img src="images/eco-food.png" alt="soup-category" class="img-fluid">
+                        <h4 class="text-center">99's&nbsp;Special</h4>
+                    </div>
+                </a>
+            </div>
+            <div class="col-4  mb-3 cont-padd col-sm-4 col-md-3 col-lg-2 d-flex justify-content-center">
+                <a href="categories/starters/babycorn.html" class="card category-card">
+                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                        <img src="images/eco-food.png" alt="soup-category" class="img-fluid">
+                        <h4 class="text-center">BabyCorn</h4>
+                    </div>
+                </a>
+            </div>
+            <div class="col-4 mb-3 cont-padd col-sm-4 col-md-3 col-lg-2 d-flex justify-content-center">
+                <a href="categories/starters/veg-starters.html" class="card category-card">
+                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                        <img src="images/eco-food.png" alt="snacks-category" class="img-fluid">
+                        <h4 class="text-center">Veg</h4>
+                    </div>
+                </a>
+            </div>
+            <div class="col-4 mb-3 cont-padd col-sm-4 col-md-3 col-lg-2 d-flex justify-content-center">
+                <a href="categories/starters/boneless-starters.html" class="card category-card">
+                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                        <img src="images/eco-food.png" alt="salad-category" class="img-fluid">
+                        <h4 class="text-center">BoneLess</h4>
+                    </div>
+                </a>
+            </div>
+            <div class="col-4 mb-3 cont-padd col-sm-4 col-md-3 col-lg-2 d-flex justify-content-center">
+                <a href="categories/starters/chicken-starters.html" class="card category-card">
+                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                        <img src="images/eco-food.png" alt="snacks-category" class="img-fluid">
+                        <h4 class="text-center">Chicken</h4>
+                    </div>
+                </a>
+            </div>
+            <div class="col-4 mb-3 cont-padd col-sm-4 col-md-3 col-lg-2 d-flex justify-content-center">
+                <a href="categories/starters/kaadai-starters.html" class="card category-card">
+                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                        <img src="images/eco-food.png" alt="snacks-category" class="img-fluid">
+                        <h4 class="text-center">Kaadai</h4>
+                    </div>
+                </a>
+            </div>
+            <div class="col-4 mb-3 cont-padd col-sm-4 col-md-3 col-lg-2 d-flex justify-content-center">
+                <a href="categories/starters/mutton-starters.html" class="card category-card">
+                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                        <img src="images/eco-food.png" alt="snacks-category" class="img-fluid">
+                        <h4 class="text-center">Mutton</h4>
+                    </div>
+                </a>
+            </div>
+            <div class="col-4 mb-3 cont-padd col-sm-4 col-md-3 col-lg-2 d-flex justify-content-center">
+                <a href="categories/starters/naatukozhi-starters.html" class="card category-card">
+                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                        <img src="images/eco-food.png" alt="snacks-category" class="img-fluid">
+                        <h4 class="text-center">Naatukozhi</h4>
+                    </div>
+                </a>
+            </div>
+            <div class="col-4 mb-3 cont-padd col-sm-4 col-md-3 col-lg-2 d-flex justify-content-center">
+                <a href="categories/starters/pegion-starters.html" class="card category-card">
+                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                        <img src="images/eco-food.png" alt="snacks-category" class="img-fluid">
+                        <h4 class="text-center">Pegion</h4>
+                    </div>
+                </a>
+            </div>
+            <div class="col-4 mb-3 cont-padd col-sm-4 col-md-3 col-lg-2 d-flex justify-content-center">
+                <a href="categories/starters/rabbit-starters.html" class="card category-card">
+                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                        <img src="images/eco-food.png" alt="snacks-category" class="img-fluid">
+                        <h4 class="text-center">Rabbit</h4>
+                    </div>
+                </a>
+            </div>
+            <div class="col-4 mb-3 cont-padd col-sm-4 col-md-3 col-lg-2 d-flex justify-content-center">
+                <a href="categories/starters/tandoori-starters.html" class="card category-card">
+                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                        <img src="images/eco-food.png" alt="snacks-category" class="img-fluid">
+                        <h4 class="text-center">Tandoori</h4>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Repeat these col elements as needed for other categories -->
+        </div>
+    </section>
+     
+    <!-- Links to Category Pages - Food -->
+    <section class="container mt-3 category-section font" id="foodSection">        
+        <div class="row justify-content-center">
+            <div class="col-4 cont-padd col-sm-4 col-md-3 col-lg-2 d-flex justify-content-center mt-2 mb-1">
+                <a href="categories/gravy/pegion-gravy.html" class="card category-card">
+                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                        <img src="images/eco-food.png" alt="biriyani-category" class="img-fluid">
+                        <h4 class="text-center">Pegion</h4>
+                    </div>
+                </a>
+            </div>
+            <div class="col-4 cont-padd col-sm-4 col-md-3 col-lg-2 d-flex justify-content-center mt-2 mb-1">
+                <a href="categories/gravy/rabbit-gravy.html" class="card category-card">
+                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                        <img src="images/eco-food.png" alt="combo-category" class="img-fluid">
+                        <h4 class="text-center">Rabbit</h4>
+                    </div>
+                </a>
+            </div>
+            <div class="col-4 cont-padd col-sm-4 col-md-3 col-lg-2 d-flex justify-content-center mt-2 mb-1">
+                <a href="categories/gravy/kaadai-gravy.html" class="card category-card">
+                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                        <img src="images/eco-food.png" alt="friedrice-category" class="img-fluid">
+                        <h4 class="text-center">Kaadai</h4>
+                    </div>
+                </a>
+            </div>
+            <div class="col-4 cont-padd col-sm-4 col-md-3 col-lg-2 d-flex justify-content-center mt-2">
+                <a href="categories/gravy/prawn-gravy.html" class="card category-card">
+                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                        <img src="images/eco-food.png" alt="combo-category" class="img-fluid">
+                        <h4 class="text-center">Prawn</h4>
+                    </div>
+                </a>
+            </div>
+            <div class="col-4 cont-padd col-sm-4 col-md-3 col-lg-2 d-flex justify-content-center mt-2 mb-1">
+                <a href="categories/gravy/naattukozhi-gravy.html" class="card category-card">
+                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                        <img src="images/eco-food.png" alt="biriyani-category" class="img-fluid">
+                        <h4 class="text-center">Naatukozhi</h4>
+                    </div>
+                </a>
+            </div>
+            <div class="col-4 cont-padd col-sm-4 col-md-3 col-lg-2 d-flex justify-content-center mt-2 mb-1">
+                <a href="categories/gravy/mutton-gravy.html" class="card category-card">
+                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                        <img src="images/eco-food.png" alt="combo-category" class="img-fluid">
+                        <h4 class="text-center">Mutton</h4>
+                    </div>
+                </a>
+            </div>
+            <div class="col-4 cont-padd col-sm-4 col-md-3 col-lg-2 d-flex justify-content-center mt-2 mb-1">
+                <a href="categories/gravy/chicken-gravy.html" class="card category-card">
+                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                        <img src="images/eco-food.png" alt="friedrice-category" class="img-fluid">
+                        <h4 class="text-center">Chicken</h4>
+                    </div>
+                </a>
+            </div>
+            <div class="col-4 cont-padd col-sm-4 col-md-3 col-lg-2 d-flex justify-content-center mt-2 mb-1">
+                <a href="categories/gravy/egg-gravy.html" class="card category-card">
+                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                        <img src="images/eco-food.png" alt="biriyani-category" class="img-fluid">
+                        <h4 class="text-center">Egg</h4>
+                    </div>
+                </a>
+            </div>
+            <!-- Repeat these col elements as needed for other categories -->
+        </div>
+    </section>
+
+    <section class="container mt-3 category-section " id="seafoodSection">
+        <div class="row justify-content-center">
+            <div class="col-4 cont-padd col-sm-4 col-md-3 col-lg-2 d-flex justify-content-center mt-2">
+                <a href="categories/seafood/crab-starters.html" class="card category-card">
+                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                        <img src="images/eco-food.png" alt="tea-category" class="img-fluid">
+                        <h4 class="text-center">crab</h4>
+                    </div>
+                </a>
+            </div>
+            <div class="col-4 cont-padd col-sm-4 col-md-3 col-lg-2 d-flex justify-content-center mt-2">
+                <a href="categories/seafood/Fish-starters.html" class="card category-card">
+                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                        <img src="images/eco-food.png" alt="coffee-category" class="img-fluid">
+                        <h4 class="text-center">fish</h4>
+                    </div>
+                </a>
+            </div>
+            <div class="col-4 cont-padd col-sm-4 col-md-3 col-lg-2 d-flex justify-content-center mt-2">
+                <a href="categories/seafood/prawn-starters.html" class="card category-card">
+                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                        <img src="images/eco-food.png" alt="softdrinks-category" class="img-fluid">
+                        <h4 class="text-center">Prawn</h4>
+                    </div>
+                </a>
+            </div>
+            <!-- Repeat these col elements as needed for other beverage categories -->
+        </div>
+    </section>
+    
+    <section class="container mt-3 category-section " id="mainfoodSection">
+        <div class="row justify-content-center">
+            <div class="col-4 cont-padd col-sm-4 col-md-3 col-lg-2 d-flex justify-content-center mt-2">
+                <a href="categories/food/rice.html" class="card category-card">
+                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                        <img src="images/eco-food.png" alt="tea-category" class="img-fluid">
+                        <h4 class="text-center">Fried&nbsp;Rice</h4>
+                    </div>
+                </a>
+            </div>
+            <div class="col-4 cont-padd col-sm-4 col-md-3 col-lg-2 d-flex justify-content-center mt-2">
+                <a href="categories/food/noodles.html" class="card category-card">
+                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                        <img src="images/eco-food.png" alt="coffee-category" class="img-fluid">
+                        <h4 class="text-center">noodles</h4>
+                    </div>
+                </a>
+            </div>
+            <div class="col-4 cont-padd col-sm-4 col-md-3 col-lg-2 d-flex justify-content-center mt-2">
+                <a href="categories/food/eggs.html" class="card category-card">
+                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                        <img src="images/eco-food.png" alt="coffee-category" class="img-fluid">
+                        <h4 class="text-center">eggs</h4>
+                    </div>
+                </a>
+            </div>
+            <div class="col-4 cont-padd col-sm-4 col-md-3 col-lg-2 d-flex justify-content-center mt-2">
+                <a href="categories/food/naan-rotti.html" class="card category-card">
+                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                        <img src="images/eco-food.png" alt="softdrinks-category" class="img-fluid">
+                        <h4 class="text-center">Naan/Rotti</h4>
+                    </div>
+                </a>
+            </div>
+            <div class="col-4 cont-padd col-sm-4 col-md-3 col-lg-2 d-flex justify-content-center mt-2">
+                <a href="categories/food/dosa.html" class="card category-card">
+                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                        <img src="images/eco-food.png" alt="softdrinks-category" class="img-fluid">
+                        <h4 class="text-center">dosa</h4>
+                    </div>
+                </a>
+            </div>
+            <div class="col-4 cont-padd col-sm-4 col-md-3 col-lg-2 d-flex justify-content-center mt-2">
+                <a href="categories/food/curd.html" class="card category-card">
+                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                        <img src="images/eco-food.png" alt="softdrinks-category" class="img-fluid">
+                        <h4 class="text-center">curd</h4>
+                    </div>
+                </a>
+            </div>
+            <!-- Repeat these col elements as needed for other beverage categories -->
+        </div>
+    </section>
+
+
+    <!-- Links to Category Pages - Beverages -->
+<section class="container mt-3 category-section " id="beveragesSection">
+    <div class="row justify-content-center">
+        <div class="col-4 cont-padd col-sm-4 col-md-3 col-lg-2 d-flex justify-content-center mt-2">
+            <a href="categories/beverages/deserts.html" class="card category-card">
+                <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                    <img src="images/eco-food.png" alt="tea-category" class="img-fluid">
+                    <h4 class="text-center">Dessert</h4>
+                </div>
+            </a>
+        </div>
+        <div class="col-4 cont-padd col-sm-4 col-md-3 col-lg-2 d-flex justify-content-center mt-2">
+            <a href="categories/beverages/soda.html" class="card category-card">
+                <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                    <img src="images/eco-food.png" alt="coffee-category" class="img-fluid">
+                    <h4 class="text-center">Soft-drinks</h4>
+                </div>
+            </a>
+        </div>
+       
+        <!-- Repeat these col elements as needed for other beverage categories -->
+    </div>
+</section>
+
+
+<!-- <div class="dropdown" id="categoryDropdown3"> 
+    <button class="btn btn-warning menu-drop" type="button" onclick="showOrderPopup()">
+        <i class="fa-regular fa-clipboard"></i>
+    </button>
+</div> -->
+
+<ul id="ordered-items"></ul>
+
+<!-- Popup Modal Structure -->
+<div id="orderPopup" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeOrderPopup()">&times;</span>
+        <h1 class="pop-up-head" align="left">Orders</h1>
+        <hr>
+        <div id="orderItems" align="left"></div>
+    </div>
+</div>
+
+
+    
+
+
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap JS with Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-+H1v8tD7X+RfCBI0A0ayTPc5+POTM6aUj3A5Jb20yOw09E77vFXk0NB6FXbGYJJQ" crossorigin="anonymous"></script>
+
+    <!-- Custom JavaScript -->
+    <script>
+       document.addEventListener("DOMContentLoaded", function() {
+    const foodBtn = document.getElementById("foodBtn");
+    const starterBtn = document.getElementById("starterBtn");
+    const mainfoodBtn = document.getElementById("mainfoodBtn");
+    const seafoodBtn = document.getElementById("seafoodBtn");
+    const beveragesBtn = document.getElementById("beveragesBtn");
+    const foodSection = document.getElementById("foodSection");
+    const seafoodSection = document.getElementById("seafoodSection");
+    const starterSection = document.getElementById("starterSection");
+    const beveragesSection = document.getElementById("beveragesSection");
+    const mainfoodSection = document.getElementById("mainfoodSection");
+
+    function hideAllSections() {
+        foodSection.style.display = "none";
+        starterSection.style.display = "none";
+        beveragesSection.style.display = "none";
+        seafoodSection.style.display = "none";
+        mainfoodSection.style.display = "none";
+    }
+
+    function removeAllActiveLines() {
+        foodBtn.classList.remove("active-line");
+        starterBtn.classList.remove("active-line");
+        beveragesBtn.classList.remove("active-line");
+        seafoodBtn.classList.remove("active-line");
+        mainfoodBtn.classList.remove("active-line");
+    }
+
+    foodBtn.addEventListener("click", function() {
+        hideAllSections();
+        removeAllActiveLines();
+        foodSection.style.display = "block";
+        foodBtn.classList.add("active-line");
+        history.replaceState(null, null, "#foodBtn");
+    });
+
+    starterBtn.addEventListener("click", function() {
+        hideAllSections();
+        removeAllActiveLines();
+        starterSection.style.display = "block";
+        starterBtn.classList.add("active-line");
+        history.replaceState(null, null, "#starterBtn");
+    });
+
+    seafoodBtn.addEventListener("click", function() {
+        hideAllSections();
+        removeAllActiveLines();
+        seafoodSection.style.display = "block";
+        seafoodBtn.classList.add("active-line");
+        history.replaceState(null, null, "#seafoodBtn");
+    });
+
+    mainfoodBtn.addEventListener("click", function() {
+        hideAllSections();
+        removeAllActiveLines();
+        mainfoodSection.style.display = "block";
+        mainfoodBtn.classList.add("active-line");
+        history.replaceState(null, null, "#mainfoodBtn");
+    });
+
+    beveragesBtn.addEventListener("click", function() {
+        hideAllSections();
+        removeAllActiveLines();
+        beveragesSection.style.display = "block";
+        beveragesBtn.classList.add("active-line");
+        history.replaceState(null, null, "#beveragesBtn");
+    });
+
+    function handleInitialDisplay() {
+        const hash = window.location.hash;
+        switch (hash) {
+            case "#foodBtn":
+                foodBtn.click();
+                break;
+            case "#starterBtn":
+                starterBtn.click();
+                break;
+            case "#seafoodBtn":
+                seafoodBtn.click();
+                break;
+            case "#mainfoodBtn":
+                mainfoodBtn.click();
+                break;
+            case "#beveragesBtn":
+                beveragesBtn.click();
+                break;
+            default:
+                starterBtn.click();
+        }
+    }
+
+    handleInitialDisplay();
+});
+
+
+        
+
+    </script>
+<script class="swipe script">
+    
+const swipeContainer = document.getElementById('swipeContainer');
+
+function scrollToCenter(element) {
+  const containerWidth = swipeContainer.offsetWidth;
+  const elementWidth = element.offsetWidth;
+  const elementLeft = element.offsetLeft;
+  const scrollPosition = elementLeft - (containerWidth / 2) + (elementWidth / 2);
+  swipeContainer.scrollTo({
+    left: scrollPosition,
+    behavior: 'smooth'
+  });
+}
+
+document.querySelectorAll('.cat-nav').forEach(item => {
+  item.addEventListener('click', () => {
+    document.querySelector('.active-line').classList.remove('active-line');
+    item.classList.add('active-line');
+    scrollToCenter(item);
+  });
+});
+
+// Swipe handling code
+let isDown = false;
+let startX;
+let scrollLeft;
+
+swipeContainer.addEventListener('mousedown', (e) => {
+  isDown = true;
+  swipeContainer.classList.add('active');
+  startX = e.pageX - swipeContainer.offsetLeft;
+  scrollLeft = swipeContainer.scrollLeft;
+});
+
+swipeContainer.addEventListener('mouseleave', () => {
+  isDown = false;
+  swipeContainer.classList.remove('active');
+});
+
+swipeContainer.addEventListener('mouseup', () => {
+  isDown = false;
+  swipeContainer.classList.remove('active');
+});
+
+swipeContainer.addEventListener('mousemove', (e) => {
+  if (!isDown) return;
+  e.preventDefault();
+  const x = e.pageX - swipeContainer.offsetLeft;
+  const walk = (x - startX) * 2; // scroll-fast
+  swipeContainer.scrollLeft = scrollLeft - walk;
+});
+
+swipeContainer.addEventListener('touchstart', (e) => {
+  isDown = true;
+  startX = e.touches[0].pageX - swipeContainer.offsetLeft;
+  scrollLeft = swipeContainer.scrollLeft;
+});
+
+swipeContainer.addEventListener('touchend', () => {
+  isDown = false;
+});
+
+swipeContainer.addEventListener('touchmove', (e) => {
+  if (!isDown) return;
+  const x = e.touches[0].pageX - swipeContainer.offsetLeft;
+  const walk = (x - startX) * 2; // scroll-fast
+  swipeContainer.scrollLeft = scrollLeft - walk;
+});
+</script>    
+    <!-- Your custom JavaScript -->
+    <script src="js/index.js"></script>
+    <!-- <script src="index.js"></script> -->
+    <script src="js/search.js"></script>
+</body>
+</html>

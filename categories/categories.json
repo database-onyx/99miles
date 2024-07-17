@@ -1,0 +1,95 @@
+[
+    {
+        "label": "99 Special",
+        "href": "../starters/99special.html"
+    },
+    {
+        "label": "Babycorn",
+        "href": "../starters/babycorn.html"
+    },    {
+        "label": "Boneless-starters",
+        "href": "../starters/boneless-starters.html"
+    },    {
+        "label": "Chicken-starters",
+        "href": "../starters/99special.html"
+    },    {
+        "label": "Kaadai Starters",
+        "href": "../starters/kaadai-starters.html"
+    },    {
+        "label": "mutton starters",
+        "href": "../starters/mutton-starters.html"
+    },    {
+        "label": "Naatukozhi starters",
+        "href": "../starters/naatukozhi-starters.html"
+    },    {
+        "label": "Pegion Starters",
+        "href": "../starters/pegion-starters.html"
+    },    {
+        "label": "rabbit starters",
+        "href": "../starters/rabbit-starters.html"
+    },    {
+        "label": "veg starters",
+        "href": "../starters/veg-starters.html"
+    },    {
+        "label": "Chicken gravy",
+        "href": "../gravy/chicken-gravy.html"
+    },    {
+        "label": "Egg gravy",
+        "href": "../gravy/egg-gravy.html"
+    },    {
+        "label": "kaadai gravy",
+        "href": "../gravy/kaadai-gravy.html"
+    },    {
+        "label": "mutton gravy",
+        "href": "../gravy/mutton-gravy.html"
+    },    {
+        "label": "naatukozhi gravy",
+        "href": "../gravy/naatukozhi-gravy.html"
+    },    {
+        "label": "pegion gravy",
+        "href": "../gravy/pegion-gravy.html"
+    },    {
+        "label": "prawn gravy",
+        "href": "../gravy/prawn-gravy.html"
+    },    {
+        "label": "rabbit gravy",
+        "href": "../gravy/chicken-gravy.html"
+    },    {
+        "label": "veg gravy",
+        "href": "../gravy/veg-gravy.html"
+    },    {
+        "label": "crab starters",
+        "href": "../seafood/crab-starters.html"
+    },    {
+        "label": "fish starters",
+        "href": "../seafood/fish-starters.html"
+    },    {
+        "label": "prawn starters",
+        "href": "../seafood/prawn-starters.html"
+    },    {
+        "label": "curd",
+        "href": "../food/curd.html"
+    },    {
+        "label": "dosa",
+        "href": "../food/dosa.html"
+    },    {
+        "label": "eggs",
+        "href": "../food/eggs.html"
+    },    {
+        "label": "naan / rotti",
+        "href": "../food/naan-rotti.html"
+    },    {
+        "label": "noodles",
+        "href": "../food/noodles.html"
+    },    {
+        "label": "rice",
+        "href": "../food/rice.html"
+    },    {
+        "label": "desserts",
+        "href": "../beverages/deserts.html"
+    },
+    {
+        "label": "soda",
+        "href": "../beverages/soda.html"
+    }
+]

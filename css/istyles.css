@@ -1,0 +1,147 @@
+/* Apply Bebas Neue font to all elements */
+* {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+/* Set maximum width for elements with .nav-img class */
+.nav-img {
+    max-width: 35% !important;
+}
+
+/* Style for .cat-nav class */
+.cat-nav {
+    font-size: 2.5rem;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+/* Style for active line with black bottom border */
+.active-line {
+    border-bottom: 3px solid black;
+}
+
+.cont-pad{
+    padding:1px;
+}
+.font h4{
+    font-size: 18px  !important;
+}
+/* Dropdown menu styles */
+
+
+/* Show dropdown menu when .show class is added */
+/* Style for category cards */
+.category-card {
+    width: 7rem;
+    height: 6.5rem !important; /* Make the card square */
+    text-decoration: none;
+    color: black;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.category-card img {
+    max-width: 70%;
+    max-height: 57%; /* Maintain aspect ratio within the square */
+    margin-bottom: 0.5rem; /* Adjust margin between the image and text */
+    height: auto;
+}
+
+.category-card h4 {
+    font-size: 1rem;
+    text-align: center;
+    word-wrap: break-word;
+    margin-top: 1rem;
+}
+
+/* Hide category sections initially */
+.category-section {
+    display: none;
+}
+#categoryDropdown3 {
+    position: fixed;
+    bottom: 90px;
+    right: 5px;
+    z-index: 1000;
+    border-radius: 10px;
+}
+#categoryDropdown1{
+    opacity: 70%;
+    top: 12rem;
+    right: 0;    
+}
+#categoryDropdown3{
+    bottom:40px;
+}
+.goback{
+   font-size: 12px !important;
+   border-top-left-radius: 30% !important;
+   border-bottom-left-radius: 30% !important;
+}
+
+/* modal popup */
+/* Modal (background) */
+/* Close Button */
+.close {
+    color: #aaa;
+    float: left; /* Ensure it floats to the left */
+    font-size: 60px;
+    font-weight: bold;
+    cursor: pointer; /* Make it look clickable */
+    margin-left: 95%; /* Optional: Add some spacing */
+}
+
+/* Flex container for the modal header */
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position:fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 98%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    border-radius: 5px;
+}
+.pop-up-head{
+    font-size: 3rem;
+}
+#orderItems{
+    font-size: 1.3rem;
+}
+
+
+/* Responsive adjustments */
+
+
+@media (max-width: 768px) {
+    .category-card {
+        width: 5rem;
+        height: 5rem; /* Maintain square shape for smaller screens */
+    }
+    .category-card h4 {
+        font-size: 0.9rem;
+    }
+}
